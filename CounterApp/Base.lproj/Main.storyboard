@@ -26,16 +26,25 @@
                                 <rect key="frame" x="154.33333333333334" y="699" width="84.333333333333343" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Reset"/>
+                                <connections>
+                                    <action selector="resetCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y52-HI-AgZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFO-gr-bZ4">
                                 <rect key="frame" x="49.999999999999993" y="699" width="84.333333333333314" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="-"/>
+                                <connections>
+                                    <action selector="minusCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zfr-x9-eyp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAE-sG-OWe">
                                 <rect key="frame" x="258.66666666666669" y="699" width="84.333333333333314" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="+"/>
+                                <connections>
+                                    <action selector="plusCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fuZ-Dx-mEf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
