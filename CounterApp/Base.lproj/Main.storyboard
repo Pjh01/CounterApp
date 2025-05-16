@@ -66,6 +66,8 @@
                     </view>
                     <connections>
                         <outlet property="countLabel" destination="r5w-8A-w2v" id="H58-9T-QLR"/>
+                        <outlet property="minusButton" destination="wFO-gr-bZ4" id="bCc-sN-3qA"/>
+                        <outlet property="plusButton" destination="tAE-sG-OWe" id="Rgr-Oc-RT5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
